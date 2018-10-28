@@ -1,0 +1,1 @@
+"use strict";console.log("Yay Gulp!"),console.log([1,2,3,4,5].reduce(function(o,e){return o+e}));

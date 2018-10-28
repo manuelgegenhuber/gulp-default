@@ -18,7 +18,7 @@ const grep = require('gulp-grep-stream'); //exclude/include files & folders
 const _project_DIR = 'app';
 
 const _source_DIR = {
-    style: _project_DIR + '/scss/*.scss', //project_dir + ''
+    style: _project_DIR + '/scss/*.scss',
     html: _project_DIR + '/**/*.html',
     js: _project_DIR + '/js/src/**/*.js',
     img: _project_DIR + '/img/src/**/*'
@@ -26,7 +26,7 @@ const _source_DIR = {
 
 const _destination_DIR = {
     style: _project_DIR + '/css',
-    html: _project_DIR + '/validated',
+    html: _project_DIR + '',
     js: _project_DIR + '/js/dist',
     img: _project_DIR + '/img/dist/'
 }
@@ -55,7 +55,7 @@ gulp.task('sass', function(cb) {
     return pump([
         gulp.src(_source_DIR.style),
         autoprefixer(),
-        //concat('main.css')
+        concat('main.css'),
         sass(),
         gulp.dest(_destination_DIR.style),
         browserSync.stream()
