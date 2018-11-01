@@ -1,38 +1,39 @@
 {
-  "name": "gulp-default",
-  "version": "1.0.0",
-  "description": "+ gulpfiles for quick starting new projects!",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/manuelgegenhuber/gulp-default.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/manuelgegenhuber/gulp-default/issues"
-  },
-  "homepage": "https://github.com/manuelgegenhuber/gulp-default#readme",
-  "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@babel/preset-env": "^7.1.0",
-    "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-babel": "^8.0.0",
-    "gulp-changed": "^3.2.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-grep-stream": "0.0.2",
-    "gulp-htmlhint": "^2.2.1",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-minify": "^3.1.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.1",
-    "gulp-watch": "^5.0.1",
-    "pump": "^3.0.0"
-  }
+    "name": "gulp-default",
+    "version": "1.0.0",
+    "description": "+ gulpfiles for quick starting new projects!",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/manuelgegenhuber/gulp-default.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/manuelgegenhuber/gulp-default/issues"
+    },
+    "homepage": "https://github.com/manuelgegenhuber/gulp-default#readme",
+    "devDependencies": {
+        "@babel/core": "^7.1.2",
+        "@babel/preset-env": "^7.1.0",
+        "@babel/plugin-proposal-class-properties": "^7.1.0",
+        "browser-sync": "^2.26.3",
+        "gulp": "^4.0.0",
+        "gulp-autoprefixer": "^6.0.0",
+        "gulp-babel": "^8.0.0",
+        "gulp-changed": "^3.2.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-grep-stream": "0.0.2",
+        "gulp-htmlhint": "^2.2.1",
+        "gulp-imagemin": "^4.1.0",
+        "gulp-minify": "^3.1.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-uglify": "^3.0.1",
+        "gulp-watch": "^5.0.1",
+        "pump": "^3.0.0"
+    }
 }
